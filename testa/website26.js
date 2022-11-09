@@ -644,7 +644,7 @@ function Open(el, usefade = true, zind = false) {
 	div4.className = "modal-content";
 	var div5 = document.createElement("div");
 	div5.className = "modal-header";
-	div5.innerHTML = '<h4 class="modal-title">'+curcontent[el].xhead+'</h4>';
+	div5.innerHTML = '<h4 class="modal-title-big">'+curcontent[el].xhead+'</h4>';
 	var div6 = document.createElement("div");
 	div6.className = "modal-body";
 	div6.innerHTML = curcontent[el].xcon;

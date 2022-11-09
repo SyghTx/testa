@@ -2816,6 +2816,8 @@ blockquote {
     color: #fff;
     padding: 20px;
     text-transform: uppercase;
+    background: darkorange;
+    border: none;
 }
 
 /*! CSS Used from: https://bloodrust.store/styles.css?v=102 */
