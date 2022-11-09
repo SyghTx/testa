@@ -2453,8 +2453,8 @@ blockquote {
 }
 
 .store-categories .btn-secondary {
-    color: black;
-    background: orange;
+    color: white;
+    background: darkorange;
     border-color: transparent;
     outline: none !important;
 }
@@ -2821,7 +2821,7 @@ blockquote {
 }
 
 /*! CSS Used from: https://bloodrust.store/styles.css?v=102 */
-.wb-main{background:white;padding:10px;border-radius:12px;border:solid #ebebeb 1px;}
+.wb-main{padding:10px;border-radius:12px;}
 .wb-items{display:grid;grid-template-columns:repeat(7, 1fr);grid-column-gap:10px;grid-row-gap:10px;overflow:hidden;}
 @media (max-width:991px){
 .wb-items{grid-template-columns:repeat(4, 1fr);}
@@ -2829,7 +2829,7 @@ blockquote {
 @media (max-width:500px){
 .wb-items{grid-template-columns:repeat(2, 1fr);}
 }
-.wb-item{background:#f3f4f6;border-radius:8px;padding:5px;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;border:solid #ebebeb 1px;}
+.wb-item{background:darkorange;border-radius:8px;padding:5px;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;border:solid darkorange 1px;}
 .wb-item img{width:80px;height:80px;}
 .wb-time{position:absolute;padding:5px 5px;font-weight:400;font-size:15px;top:5px;right:5px;line-height:14px;color:black;background:rgba(255, 255, 255, 0.80);box-shadow:0px 5px 15px -6px rgba(0, 0, 0, 0.30);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);border-radius:6px;}
 /*! CSS Used from: https://cdn.jsdelivr.net/gh/kxacku/bloodrust@main/css70.css */
