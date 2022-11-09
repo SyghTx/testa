@@ -1029,7 +1029,7 @@ label {
 }
 
 .unban{
-    background: #ffa931 !important;
+    background: #d6c800 !important;
 }
 
 /*Модал*/
@@ -2638,7 +2638,7 @@ blockquote {
 }
 
 .xbox_custom_rules {
-  color: black;
+    color: white;
 }
 
 .xserver__links a {
@@ -2839,3 +2839,17 @@ blockquote {
 .footer{
     display: none;
 }
+
+/*! CSS Used from: http://17468.pay2win.ru/styles.css?v=102 */
+.modal-header-big{background:#2b2b2b!important;}
+/*! CSS Used from: https://cdn.jsdelivr.net/gh/SyghTx/testa@main/testa/css78.css */
+::selection{color:white!important;background:gray!important;}
+::placeholder{color:#e2e2e2!important;}
+.modal-header-big{justify-content:center;padding:0px;}
+.modal-header-big{background:none!important;}
+.modal-title{font-size:22px;font-weight:bold;display:block;text-align:center;color:#bbbbbb;padding-top:30px;text-transform:uppercase;}
+.modal-service .modal-title{font-size:18px!important;font-weight:bold;display:block;text-align:center;width:100%;border-radius:12px;padding:10px!important;border:solid #ebebeb 1px;text-transform:none!important;}
+.modal-service .modal-title{margin:16px 16px 10px 16px;}
+.modal .modal-header-big h4{font-size:26px;font-weight:bold;display:block;text-align:center;color:#fff;padding:20px;text-transform:uppercase;border:none;}
+::selection{color:white!important;background:gray!important;}
+::placeholder{color:#e2e2e2!important;}
