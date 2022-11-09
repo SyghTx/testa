@@ -1162,7 +1162,7 @@ label {
     border: none;
     border-radius: 12px;
 	margin-top: 10px;
-	background: white;
+	background: darkorange;
 }
 .modal-footer .input-group {
     border: solid #ebebeb 1px;
@@ -2833,3 +2833,7 @@ blockquote {
 /*! CSS Used from: https://cdn.jsdelivr.net/gh/kxacku/bloodrust@main/css70.css */
 ::selection{color:white!important;background:gray!important;}
 ::placeholder{color:#e2e2e2!important;}
+
+.footer{
+    display: none;
+}
