@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body, .wrapper {
-    background: #245bca repeat-y;
+    background: linear-gradient(90deg, rgba(255,181,106,1) 0%, rgba(255,184,152,1) 49%, rgba(255,181,106,1) 100%);
     background-size: 1920px 1080px;
     background-repeat: repeat;
 }
@@ -77,11 +77,11 @@ button, input, optgroup, select, textarea {
 /*Навбар*/
 
 .navbar .navbar-brand, .navbar .navbar-brand:focus, .navbar .navbar-brand:hover, .navbar .navbar-nav .nav-link, .navbar .navbar-toggler, .navbar .navbar-toggler:focus, .navbar .navbar-toggler:hover {
-    color: black;
+    color: white;
 }
 .navbar {
     text-transform: none;
-    background: #fff;
+    background: #ff9731;
     z-index: 100;
     box-shadow: none;
     padding: 0px;
@@ -262,14 +262,14 @@ button:focus {
 }
 .input-group-addon {
     color: hsl(0, 0%, 70%);
-    background: #ffffff;
+    background: #ff9731;
     border-radius: 15px;
     border: unset;
 }
 .form-control, .form-control:focus {
-    color: black;
+    color: white;
     border-color: transparent;
-    background: white;
+    background: #ff9731;
     transition: all 0.2s ease-in-out;
 }
 .form-control {
@@ -290,7 +290,7 @@ button:focus {
 }
 .fa-search:before {
     content: "\F002";
-    background: #cdcdcd;
+    background: transparent;
     padding: 10px;
     border-radius: 12px;
     color: white;
@@ -303,7 +303,7 @@ select.form-control:not([size]):not([multiple]) {
 /*Товары*/
 
 .product {
-    background: white;
+    background: #ff9731;
   	box-shadow: unset;
     transform: none;
   	border-radius: 15px;
@@ -330,7 +330,7 @@ select.form-control:not([size]):not([multiple]) {
     bottom: 5px;
     left: 10px;
     right: 70px;
-    color: black;
+    color: ghostwhite;
     background: unset;
     padding: 8px;
     font-size: 12px;
@@ -353,7 +353,7 @@ select.form-control:not([size]):not([multiple]) {
     color: black;
 }
 .product__price {
-    color: #a6b1e7;
+    color: ghostwhite;
     text-align: end;
     background: unset;
     bottom: 8px;
@@ -605,8 +605,8 @@ select.form-control:not([size]):not([multiple]) {
 /*nav-pills*/
 
 .nav-pills .nav-link {
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: orange;
   	border-radius: 0px;
 }
 .nav-pills .nav-link:hover {
@@ -729,10 +729,10 @@ select.form-control:not([size]):not([multiple]) {
     line-height: 100%;
     font-size: 1.05rem;
     font-weight: 900;
-    color: black;
+    color: white;
     text-align: center;
     text-transform: uppercase;
-    background: white;
+    background: orange;
     padding: 10px;
     border-radius: 15px 15px 0px 0px;
 }
@@ -775,8 +775,8 @@ select.form-control:not([size]):not([multiple]) {
     cursor: pointer;
 }
 .btn-danger {
-    color: black;
-    background-color: #ffffff;
+    color: white;
+    background-color: orange;
     letter-spacing: 0px;
 }
 .btn-danger:hover {
@@ -801,12 +801,12 @@ select.form-control:not([size]):not([multiple]) {
   	color: black;
 }
 .table-striped > tbody > tr:nth-of-type(odd) {
-    background-color: white;
-  	color: black;
+    background-color: orange;
+  	color: white;
 }
 .table-striped > tbody > tr {
-  	background-color: #fafafa;
-  	color: black;
+  	background-color: orange;
+  	color: white;
 }
 .xbox_profile .table-wrapper, table {
     border-radius: 15px 15px;
@@ -872,7 +872,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 .xbox_promocodes .xbox__body {
     padding: 10px;
-    background: white;
+    background: orange;
     border-radius: 0px 0px 15px 15px;
 }
 label {
@@ -885,7 +885,7 @@ label {
     padding: 13px 13px 13px 20px;
 }
 .table-striped a {
-    color: black;
+    color: white;
     font-weight: bold;
 }
 .xbox_promocodes .input-group {
@@ -953,6 +953,14 @@ label {
     color: #868ca3;
 }
 
+.wb-item {
+    background: beige !important;
+}
+
+.unban{
+    background: #ffa931 !important;
+}
+
 /*Модал*/
 
 .service__image, .item__image, .blueprint__image {
@@ -985,10 +993,10 @@ label {
     margin-bottom: 0px;
 }
 .modal .modal-content {
-    background: #f3f4f6;
+    background: orange;
     border-radius: 15px;
     padding: 0px;
-    color: #909090;
+    color: #ffe931;
 }
 .input-group-btn .modal .btn {
     box-shadow: unset;
@@ -997,9 +1005,9 @@ label {
     width: unset;
 }
 .modal-footer .btn-secondary {
-    color: #000000;
-    background: #ffffff;
-	border: solid #ebebeb 1px;
+    color: #fff;
+    background: orange;
+	border: none;
 	transform: scale(1);
   	transition: all 100ms ease-out;
 }
@@ -1012,7 +1020,7 @@ label {
 .modal-footer .btn-secondary:hover, .modal-footer .btn-secondary:focus, .modal-footer .btn-secondary:active, .modal-footer .btn-secondary:disabled {
     color: #000000;
 	border: solid #ebebeb 1px;
-    background: #ffffff;
+    background: orange;
 }
 .form-control:disabled, .form-control[readonly] {
     background: white;
@@ -1071,15 +1079,17 @@ label {
 }
 .modal-body .input-group-addon {
     border-radius: 12px 0px 0px 12px !important;
+    color: aliceblue;
 }
 .modal-footer .input-group-addon {
     border-radius: 12px 0px 0px 12px !important;
+    color: aliceblue;
 }
 .modal-body .form-control {
     border-radius: 0px 12px 12px 0px !important;
 }
 .modal-body .input-group {
-    border: solid #ebebeb 1px;
+    border: none;
     border-radius: 12px;
 	margin-top: 10px;
 	background: white;
@@ -1094,7 +1104,6 @@ label {
     display: block;
     text-align: center;
     color: #000 !important;
-    background: white;
     width: 100%;
     border-radius: 12px;
     padding: 10px !important;
@@ -2231,37 +2240,13 @@ blockquote {
     padding: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .some-btn-group {
   display: flex;
   gap: 10px;
 }
 .some-btn {
-  background: white;
-  color: black;
+  background: #ff9731;
+  color: #fff;
   padding: 11px;
   width: 100%;
   text-align: center;
@@ -2399,32 +2384,32 @@ blockquote {
 
 .store-categories .btn-secondary {
     color: black;
-    background: white;
+    background: orange;
     border-color: transparent;
     outline: none !important;
 }
 
 .store-categories .btn-secondary:hover {
-    color: white;
-    background: black;
+    color: black;
+    background: white;
     border-color: transparent;
     outline: none !important;
 }
 
 .store-categories .btn-secondary.active, .store-categories .btn-secondary:active, .show > .store-categories .btn-secondary.dropdown-toggle {
-    color: white;
-    background: black;
+    color: black;
+    background: white;
 }
 
 .serverheader {
-    color: #bbbbbb;
+    color: #fff;
     border-radius: 15px;
     margin-bottom: 10px;
     font-size: 20px;
 }
 
 .serverheader span {
-    background: #d4d4d4;
+    background: #ff9731;
     padding: 2px 12px 2px 12px;
     border-radius: 20px;
     color: white;
@@ -2460,7 +2445,7 @@ blockquote {
 
 .kit-item {
     position: relative;
-    background: white;
+    background: #ff9731;
     margin: 8px;
     border-radius: 15px;
     overflow: hidden;
@@ -2617,9 +2602,9 @@ blockquote {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: white;
+    background: none;
     border-radius: 12px;
-  	border: solid #ebebeb 1px;
+  	border: none;
     padding: 10px;
     gap: 8px;
 }
@@ -2637,12 +2622,12 @@ blockquote {
     font-size: 16px;
     line-height: 15px;
     font-weight: 600;
-    color: #23272a;
+    color: #fff;
 }
 .pd-subtext {
     font-size: 14px;
     line-height: 15px;
-    color: #bbb;
+    color: #fffa;
 }
 .pd-item {
   display: flex;
@@ -2758,7 +2743,7 @@ blockquote {
     font-weight: bold;
     display: block;
     text-align: center;
-    color: #bbbbbb;
+    color: #fff;
     padding: 20px;
     text-transform: uppercase;
 }
