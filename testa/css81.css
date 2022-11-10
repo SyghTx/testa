@@ -44,7 +44,7 @@ button, input, optgroup, select, textarea {
 }
 
 .xbox_store>.xbox__footer {
-    color: black;
+    color: white;
     font-size: 80%;
     background: none;
     text-align: center;
@@ -52,16 +52,16 @@ button, input, optgroup, select, textarea {
 }
 .footer-link__item {
     padding: 10px 20px;
-    color: black;
+    color: white;
     margin: -10px 5px 0px 5px;
-    background: white;
+    background: #ff9731;
     border-radius: 15px;
 }
 .footer-link__item:hover {
     padding: 10px 20px;
-    color: white;
+    color: black;
     margin: -10px 5px 0px 5px;
-    background: black;
+    background: white;
     border-radius: 15px;
 }
 
@@ -1025,7 +1025,7 @@ label {
 }
 
 .unban{
-    background: #d6c800 !important;
+    background: #ffb56a  !important;
 }
 
 /*Модал*/
@@ -1060,7 +1060,7 @@ label {
     margin-bottom: 0px;
 }
 .modal .modal-content {
-    background: orange;
+    background: darkorange;
     border-radius: 15px;
     padding: 0px;
     color: #ffe931;
@@ -1073,11 +1073,16 @@ label {
 }
 .modal-footer .btn-secondary {
     color: #fff;
-    background: darkorange;
+    background: orange;
 	border: none;
 	transform: scale(1);
   	transition: all 100ms ease-out;
 }
+
+.modal-footer .btn-secondary:hover {
+    background: #ffb56a;
+}
+
 .modal-footer .btn-secondary:active {
     color: #000000;
 	border: solid #ebebeb 1px;
@@ -1089,23 +1094,23 @@ label {
     background: #ff9731;
 }
 .form-control:disabled, .form-control[readonly] {
-    background: darkorange;
+    background: orange;
 }
 .modal-item .input-group-btn:not(:first-child)>.btn, .input-group-btn:not(:first-child)>.btn-group {
     background: #ff9731;
   	opacity: 1;
 }
 .input-group-btn:not(:last-child)>.btn, .input-group-btn:not(:last-child)>.btn-group {
-    background: white;
+    background: #ff9731;
     opacity: 1;
 }
 .fa-minus:before {
     content: "\F068";
-  	color: black;
+  	color: white;
 }
 .fa-plus:before {
     content: "\F067";
-    color: black;
+    color: white;
 }
 .modal-body .form-control {
     padding: 13px 13px 13px 13px;
@@ -1150,6 +1155,7 @@ label {
 .modal-footer .input-group-addon {
     border-radius: 12px 0px 0px 12px !important;
     color: aliceblue;
+    background: #ffc36a;
 }
 .modal-body .form-control {
     border-radius: 0px 12px 12px 0px !important;
@@ -1161,7 +1167,7 @@ label {
 	background: darkorange;
 }
 .modal-footer .input-group {
-    border: solid #ebebeb 1px;
+    border: none;
     border-radius: 12px;
 }
 .modal-item .modal-title, .modal-service .modal-title, .modal-blueprint .modal-title {
@@ -1193,23 +1199,23 @@ label {
     padding: 0px 16px;
     white-space: nowrap;
     overflow: hidden;
-    background: white;
-    border-top: solid #ebebeb 1px;
-    border-bottom: solid #ebebeb 1px;
+    background: #ffb56a;
+    border-top: solid darkorange 1px;
+    border-bottom: solid darkorange 1px;
 }
 
 .roulette-item {
     box-shadow: none;
-    background: white;
+    background: #ffb56a;
     border-bottom: 0px;
-    border-left: solid #fff 1px;
-    border-right: solid #fff 1px;
+    border-left: solid goldenrod 1px;
+    border-right: solid goldenrod 1px;
     transition: all 0.2s ease-out;
 }
 
 .roulette-item:hover {
-    border-left: solid #ebebeb 1px;
-    border-right: solid #ebebeb 1px;
+    border-left: solid darkorange 1px;
+    border-right: solid darkorange 1px;
 }
 
 .blueprint__image, .roulette-item_blueprint .roulette-item__image {
@@ -2450,14 +2456,14 @@ blockquote {
 
 .store-categories .btn-secondary {
     color: white;
-    background: darkorange;
+    background: orange;
     border-color: transparent;
     outline: none !important;
 }
 
 .store-categories .btn-secondary:hover {
     color: white;
-    background: #ff9731;
+    background: #ffb56a;
     border-color: transparent;
     outline: none !important;
 }
@@ -2511,7 +2517,7 @@ blockquote {
 
 .kit-item {
     position: relative;
-    background: #ff9731;
+    background: orange;
     margin: 8px;
     border-radius: 15px;
     overflow: hidden;
@@ -2816,6 +2822,11 @@ blockquote {
     border: none;
 }
 
+.modal .modal-header {
+    background: darkorange;
+    border-radius: 15px;
+}
+
 /*! CSS Used from: https://bloodrust.store/styles.css?v=102 */
 .wb-main{padding:10px;border-radius:12px;}
 .wb-items{display:grid;grid-template-columns:repeat(7, 1fr);grid-column-gap:10px;grid-row-gap:10px;overflow:hidden;}
@@ -2825,8 +2836,9 @@ blockquote {
 @media (max-width:500px){
 .wb-items{grid-template-columns:repeat(2, 1fr);}
 }
-.wb-item{background:darkorange;border-radius:8px;padding:5px;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;border:solid darkorange 1px;}
+.wb-item{background:darkorange;border-radius:8px;padding:5px;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;border:solid darkorange 1px;transition: all 300ms ease 0s;}
 .wb-item img{width:80px;height:80px;}
+.wb-item:hover {border: solid orange 1px;transform: translate3d(0px, -5px, 0px);}
 .wb-time{position:absolute;padding:5px 5px;font-weight:400;font-size:15px;top:5px;right:5px;line-height:14px;color:black;background:rgba(255, 255, 255, 0.80);box-shadow:0px 5px 15px -6px rgba(0, 0, 0, 0.30);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);border-radius:6px;}
 /*! CSS Used from: https://cdn.jsdelivr.net/gh/kxacku/bloodrust@main/css70.css */
 ::selection{color:white!important;background:gray!important;}
